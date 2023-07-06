@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: #+begin_src plantuml block
+# key: <p
+# --
+#+begin_src plantuml
+$0
+#+end_src

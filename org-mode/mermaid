@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: #+begin_src mermaid block
+# key: <m
+# expand-env: ((yas-indent-line 'fixed))
+# --
+#+begin_src mermaid
+flowchart
+$0
+#+end_src
