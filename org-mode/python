@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: python
-# key: py
-# uuid: py
+# key: python
+# uuid: python
 # --
 #+begin_src python :session :results output
 $0
