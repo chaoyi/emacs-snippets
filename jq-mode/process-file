@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: process-file
+# key: process
+# --
+#!/usr/bin/jq -Mf
+.

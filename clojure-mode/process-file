@@ -1,0 +1,16 @@
+#!/usr/bin/env bb
+
+;; Function to extract the first word of a form
+(defn find-first-word [line]
+  (when-let [match (re-find #"\((\w+)" line)]
+    (second match)))
+
+;; Process standard input
+(defn process-stdin []
+  (doseq [line (line-seq (io/reader *in*))]
+    (let [keyword (find-first-word line)]
+      (when keyword (println keyword)))))
+
+;; Main execution
+(process-stdin)
+

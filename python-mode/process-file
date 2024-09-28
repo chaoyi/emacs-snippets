@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: process-file
+# key: process
+# --
+#!/usr/bin/env python
+
+import sys
+
+data = sys.stdin.read().splitlines()
+
+def main():
+    print(data)$0
+
+if __name__ == "__main__":
+    main()
+
